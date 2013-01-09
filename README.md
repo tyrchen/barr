@@ -1,4 +1,4 @@
 barr
 ======
 
-static site generator
+static site generator.
