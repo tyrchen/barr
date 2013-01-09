@@ -1,2 +1,1 @@
-barr
-====
+static site generator

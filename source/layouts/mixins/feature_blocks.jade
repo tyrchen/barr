@@ -1,0 +1,15 @@
+mixin feature_block(f)
+  .span3
+    h3
+      i.icon(class="#{f.icon}")
+      | #{f.title}
+    p #{f.description}
+    a.btn(href="#{f.action.url}")
+      i.icon(class="#{f.action.icon}")
+      | #{f.action.title}
+
+mixin feature_blocks(features)
+  .row.feature-blocks
+    - for feature in features
+      +feature_block(feature)
+

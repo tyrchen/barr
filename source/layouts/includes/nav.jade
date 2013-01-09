@@ -1,0 +1,13 @@
+- var items = [{href: 'index.html', title: 'Home'}, {href: 'photos.html', title: 'Photos'}, {href: 'slides.html', title: 'Slides'}]
+
+.navbar.navbar-inverse.navbar-fixed-top
+  .navbar-inner
+    .container
+      a.btn.btn-navbar(data-toggle="collapse", data-target=".nav-collapse")
+        i.icon.icon-reorder
+        | Menu
+      a.brand(href="index.html") Barr
+      .nav-collapse.collapse
+        ul.nav
+          - for item in items
+            li: a(href="#{item.href}") #{item.title}

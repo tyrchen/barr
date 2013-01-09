@@ -1,0 +1,6 @@
+mixin strip(description, action)
+  .strip
+    .container
+      .row
+        p #{description}
+          a.btn.btn-primary(href="#{action.url}") #{action.title}

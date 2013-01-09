@@ -1,0 +1,1 @@
+When using jake new_pages["page name"], the generated jade file is in here.

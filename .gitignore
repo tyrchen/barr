@@ -1,0 +1,4 @@
+.idea
+_deploy
+*.html
+node_modules
